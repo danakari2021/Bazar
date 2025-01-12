@@ -1,0 +1,384 @@
+@media screen and (max-width:1200px) and (min-width:1024px) {
+    nav {
+        width: 1000px;
+    }
+
+    .main-items {
+        width: 990px;
+    }
+
+    .card-resize {
+        width: 15% !important;
+        height: 220px !important;
+        margin-right: 0.8% !important;
+    }
+
+    .card-image-resize {
+        width: 100%;
+        height: 100%;
+        margin-right: 0.9% !important;
+    }
+
+    .name-resize {
+        width: 100px !important;
+    }
+
+    .b {
+        display: none;
+    }
+
+    .footer-one {
+        width: 980px;
+    }
+
+    .head-footer {
+        width: 1100px;
+    }
+
+    .footer-download {
+        width: 1100px;
+    }
+
+    .footer-two {
+        width: 980px;
+        gap: 50px;
+    }
+
+    .footer-end {
+        width: 1000px;
+    }
+
+    .footer-two {
+        gap: 25px;
+    }
+
+.footer-menu-logo {
+   display: flex;
+}
+
+    /* //barname */
+    .program-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .program-container {
+        width: 990px;
+    }
+
+    .image-program h1 {
+        width: 220px !important;
+    }
+
+    .image-program button {
+        margin-right: 470px;
+    }
+
+    .main-items-size-990px {
+        width: 990px !important;
+    }
+
+    .moshahede-head-item-sub a {}
+
+    .swiper-slide-990px {
+        width: 525px !important;
+    }
+
+    .darresane-darsad-item .scroll-back {
+        width: 920px;
+    }
+
+    .darresane-item-resize {
+        width: 940px;
+    }
+
+    .darresane-item {
+        width: 960px;
+    }
+
+    .darresane-item .darresane-item-text p {
+        width: 900px;
+    }
+
+    .login-right {
+        width: calc(1200px / 2);
+    }
+
+    .login-left {
+        width: calc(1200px / 2);
+    }
+}
+
+/* ==============================================================1023==================================================== */
+@media screen and (max-width:1023px) {
+    header {
+        height: 106px;
+    }
+
+    main {
+        margin-bottom: 65px;
+    }
+
+
+    .header-container {
+        height: 106px;
+        box-shadow: none;
+        border-bottom: 1px solid var(--box-shadow);
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo img,
+    .menu,
+    .search-box button,
+    .programs,
+    .dropdown {
+        display: none;
+    }
+
+    .main-items {
+        width: 95% !important;
+    }
+
+    .search-1023 {
+        margin-left: 60px !important;
+    }
+
+.search-box a>i {
+    margin-left: 20px;
+}
+
+    .hamberger-menu label>i,
+    .hidden-menu {
+        display: block;
+    }
+
+    .hidden-menu {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hidden-menu ul {
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .hidden-menu li {
+        list-style: none;
+    }
+
+    .search-box {
+        justify-content: flex-start;
+        padding-right: 1.3%;
+        width: 100%;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .search-box input:nth-child(3) {
+        width: 89%;
+    }
+
+    .search-box i:nth-child(2) {
+        position: absolute;
+        font-size: 13px;
+        margin-right: 56px;
+        color: #A6A7B2;
+        top: 28px;
+    }
+
+    .search-box i:nth-child(4) {
+        left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .hamberger-menu-item {
+        display: block;
+    }
+
+    #toggle:checked~header .header-container {
+        height: 100% !important;
+    }
+
+    #toggle:checked~header .header-container nav .hamberger-menu i:nth-child(1) {
+        color: white;
+        background-color: white;
+    }
+
+    #toggle:checked~header .header-container nav .hamberger-menu i:nth-child(2) {
+        display: block;
+    }
+
+    .slide-container-resize {
+        height: auto !important;
+    }
+
+    .card-resize {
+        width: 18% !important;
+        height: 220px !important;
+        margin-right: 0 !important;
+        margin: 1% !important;
+    }
+
+    .card-image-resize {
+        width: 90%;
+        height: 90%;
+        margin-right: 5% !important;
+    }
+
+    .name-resize {
+        width: 85% !important;
+    }
+
+    .footer-one,
+    .footer-two,
+    .footer-end {
+        display: none;
+    }
+
+    .footer-hidden {
+        display: flex;
+    }
+
+    .footer-hidden-item .t1:before {
+        margin-right: -7px;
+        margin-top: 45px;
+    }
+
+    .footer-container {
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .mainend-items p {
+        font-size: 17px;
+    }
+
+    .height .fa-angle-down {
+        bottom: 20px !important;
+    }
+
+    /* //barname */
+    .program-header {
+        width: 95% !important;
+    }
+
+    .program-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-program,
+    .left-program {
+        width: 95% !important;
+    }
+
+    .main-items-size,
+    .image-program {
+        width: 100% !important;
+    }
+
+    .program-container {
+        width: 100% !important;
+    }
+
+    .image-program h1 {
+        width: 220px !important;
+    }
+
+    .image-program button {
+        position: absolute;
+        left: 0;
+        margin-left: 30px;
+    }
+
+
+    .moshahede-head-item-sub a {}
+
+    .swiper-slide-990px {
+        width: 525px !important;
+    }
+
+    .darresane-darsad-item .scroll-back {
+        width: 86cqw;
+    }
+
+    .darresane-item-resize {
+        width: 98%;
+    }
+
+    .darresane-item {
+        width: 100%;
+    }
+
+    .darresane-item .darresane-item-text p {
+        width: 100%;
+    }
+
+    .login-right {
+        width: 100%;
+    }
+
+    .body-main {
+        background-color: #fff !important;
+    }
+
+    .login-left {
+        display: none;
+    }
+
+    .login-right-head {
+        right: 30px;
+    }
+}
+
+/* ==============================================================768==================================================== */
+@media screen and (max-width:768px) {
+.card-resize {
+    width: 18% !important;
+    height: 180px !important;
+    margin-right: 0 !important;
+    margin: 1% !important;
+}
+}
+
+/* ==============================================================640==================================================== */
+@media screen and (max-width:640px) {
+.card-wrapper-resize {
+    flex-direction: column !important;
+}
+
+.card-wrapper-resize  {
+    width: 95% !important;
+} 
+
+.card-resize {
+    width: 100% !important;
+    height: 110px !important;
+    margin: 3% !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-content-resize  {
+    margin-top: 25px;
+}
+
+.name-resize {
+    white-space: wrap;
+    width: 100% !important;
+}
+
+}

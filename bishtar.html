@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>بازار</title>
+    <link rel="icon" type="image/x-icon" href="images/ico.gif">
+  </head>
+  <body dir="rtl">
+    <div class="loader">
+      <div></div>
+    </div>
+
+    <input type="checkbox" id="toggle" />
+    <input type="checkbox" id="height" />
+
+    <header>
+      <section class="header-container">
+        <nav class="nav-resize">
+          <section class="logo">
+            <a href="bazar.html" title="Home"><img
+              src="images/bazaar-logo.svg"
+              alt="bazaar-logo"
+              width="auto"
+              height="42px" id="bazard"
+            /></a>
+          </section>
+          <section class="menu">
+            <ul>
+              <li><a class="t1" href="">برنامه</a></li>
+              <li><a href="">بازی</a></li>
+              <li><a href="">پشتیبانی</a></li>
+              <li><a href="">سایر</a></li>
+            </ul>
+          </section>
+          <section class="search-box">
+            <section class="hamberger-menu">
+              <label for="toggle" class="menu-berger">
+                <i class="fa fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+            </section>
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="جستجو در بازار" />
+            <a href="login.html"><i class="fa fa-user" title="ورود به بازار"></i></a>
+            <button>دانلود بازار</button>
+            <section class="dropdown">
+              <i class="fa fa-ellipsis-vertical"></i>
+              <section class="dropdown-content">
+                <a href="bazar-en.html"><span>English version</span></a>
+                <a id="darkmood"><span>Dark Mood</span></a>
+              </section>
+            </section>
+          </section>
+          <section class="hidden-menu">
+            <ul>
+              <li class="t2"><a href="">برای شما</a></li>
+              <li><a href="">دسته بندی ها</a></li>
+              <li><a href="">کودک</a></li>
+            </ul>
+          </section>
+          <ul class="hamberger-menu-item">
+            <div class="hamberger-menu-item-logo">
+              <img
+              src="images/bazaar-logo.svg"
+              alt="bazaar-logo" id="bazarl"
+              />
+              <div class="lang-day">
+                <a href="bazar-en.html" title="Language:English"><img src="images/languages.png"></a >
+                  <img src="images/moon.png" id="moody">
+            </div>
+          </div>
+            <li>
+              <a href="#">توسعه‌دهندگان بازار</a
+              ><i class="fa fa-angle-left"></i>
+            </li>
+            <li>
+              <a href="#">فرصت‌های شغلی</a><i class="fa fa-angle-left"></i>
+            </li>
+            <li>
+              <a href="#">نشان دریافت از بازار</a
+              ><i class="fa fa-angle-left"></i>
+            </li>
+            <li>
+              <a href="#">شرایط استفاده</a><i class="fa fa-angle-left"></i>
+            </li>
+            <li><a href="#">حریم خصوصی</a><i class="fa fa-angle-left"></i></li>
+            <li><a href="#">پشتیبانی</a><i class="fa fa-angle-left"></i></li>
+            <li>
+              <a href="#">تبلیغات در بازار</a><i class="fa fa-angle-left"></i>
+            </li>
+            <li><a href="#">بلاگ بازار</a><i class="fa fa-angle-left"></i></li>
+            <li>
+              <a href="#">خبرها و بیانیه‌های بازار</a
+              ><i class="fa fa-angle-left"></i>
+            </li>
+            <li>
+              <a href="#">بلاگ فنی بازار</a><i class="fa fa-angle-left"></i>
+            </li>
+            <li><a href="#">درباره ما</a><i class="fa fa-angle-left"></i></li>
+            <li><a href="#">تماس با ما</a><i class="fa fa-angle-left"></i></li>
+            <ul class="hamberger-menu-item-social">
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="main-container">
+        <section class="programs main-items main-items-resize">برنامه‌های کاربردی</section>
+        <section class="slide-container slide-container-resize main-items  main-items-resize">
+          <section class="card-wrapper card-wrapper-resize">
+            <section
+              class="card-resize"
+              title="فیلیمو - تماشای فیلم و سریال"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b1.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">فیلیمو - تماشای فیلم و سریال</h2>
+                <p class="des">سرگرمی</p>
+              </section>
+            </section>
+            <section class="card-resize" title="ترب | بهترین قیمت بازار">
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b2.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">ترب | بهترین قیمت بازار</h2>
+                <p class="des">خرید</p>
+              </section>
+            </section>
+            <section class="card-resize" title="نشان | نقشه و مسیریاب">
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b3.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">نشان | نقشه و مسیریاب</h2>
+                <p class="des">رفت و آمد</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="آپ کارت به کارت،خلافی خودرو،چک صیادی"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b4.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">آپ کارت به کارت،خلافی خودرو،چک صیادی</h2>
+                <p class="des">امور مالی</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="اسنپ |Snapp سامانه هوشمند حمل و نقل"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b5.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">اسنپ |Snapp سامانه هوشمند حمل و نقل</h2>
+                <p class="des">رفت و آمد</p>
+              </section>
+            </section>
+            <section class="card-resize" title="دیوار">
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b6.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">دیوار</h2>
+                <p class="des">خرید</p>
+              </section>
+            </section>
+            <section class="card-resize" title="اسنپ فود | سفارش غذا">
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b7.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">اسنپ فود | سفارش غذا</h2>
+                <p class="des">آشپزی و رستوران</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="تپسی - درخواست آنلاین خودرو و پیک"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b8.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">تپسی - درخواست آنلاین خودرو و پیک</h2>
+                <p class="des">رفت و آمد</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="فیلم‌نت - تماشای فیلم و سریال"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b9.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">فیلم‌نت - تماشای فیلم و سریال</h2>
+                <p class="des">سرگرمی</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="علی‌بابا | خرید بلیط، هتل و تور"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b10.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">علی‌بابا | خرید بلیط، هتل و تور</h2>
+                <p class="des">سفر</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="آیتول (خلافی خودرو، بیمه، عوارض)"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b11.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">آیتول (خلافی خودرو، بیمه، عوارض)</h2>
+                <p class="des">امور مالی</p>
+              </section>
+            </section>
+            <section class="card-resize" title="بلد — نقشه‌ و ‌مسیریاب">
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b12.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">بلد — نقشه‌ و ‌مسیریاب</h2>
+                <p class="des">رفت و آمد</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="دیجی‌کالا | فروشگاه خرید آنلاین"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b13.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">دیجی‌کالا | فروشگاه خرید آنلاین</h2>
+                <p class="des">خرید</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="پیندو | خرید و فروش بدون واسطه کالا"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b14.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">پیندو | خرید و فروش بدون واسطه کالا</h2>
+                <p class="des">خرید</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="طاقچه | دانلود کتاب صوتی و الکترونیک"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b15.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">طاقچه | دانلود کتاب صوتی و الکترونیک</h2>
+                <p class="des">کتاب‌ها و مطبوعات</p>
+              </section>
+            </section>
+            <section
+              class="card-resize"
+              title="سپهر360 | خرید بلیط هواپیما"
+            >
+              <section class="image-content">
+                <section class="card-image card-image-resize">
+                  <img src="images/b16.webp" alt="" class="card-img" />
+                </section>
+              </section>
+              <section class="card-content card-content-resize">
+                <h2 class="name name-resize">سپهر360 | خرید بلیط هواپیما</h2>
+                <p class="des">سفر</p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-container">
+        <section class="footer-one">
+          <section class="head-footer">
+            <h2>
+              بازار، نخستین و پرمخاطب‌ترین فروشگاه ایرانی برنامه‌ها و بازی‌های
+              موبایلی دنیای اندروید
+            </h2>
+            <p>
+              صد‌ها هزار بازی ایرانی و خارجی دیتادار یا بدون دیتا را با ترافیک
+              نیم‌بها نصب کنید و به سادگی خرید درون‌ برنامه‌ای انجام دهید. بازار
+              مجهز به سپر امنیت است که برنامه‌ها را توسط آنتی ویروس‌ها بررسی
+              کرده و به محض شناسایی برنامه‌ی مخرب، به کاربر اعلام می‌کند که آن
+              برنامه را از دستگاه خود پاک کند.
+            </p>
+          </section>
+          <section class="footer-download">
+            <section class="footer-download-logo">
+              <img src="images/footer-download.webp" />
+            </section>
+            <section class="footer-download-item">
+              <h3>دانلود اپلیکیشن بازار</h3>
+              <p>پرمخاطب‌ترین اپ‌استور (اندروید) فارسی‌زبانان</p>
+              <button>نسخهٔ اندروید</button>
+              <button>نسخهٔ اندروید TV</button>
+            </section>
+          </section>
+        </section>
+        <section class="footer-two">
+          <ul>
+            <li><a href="">نصب بازار</a></li>
+            <li><a href="">بازی اندروید</a></li>
+            <li><a href="">برنامه اندروید</a></li>
+          </ul>
+          <ul>
+            <li><a href="">توسعه‌دهندگان بازار</a></li>
+            <li><a href="">فرصت‌های شغلی</a></li>
+            <li><a href="">نشان دریافت از بازار</a></li>
+          </ul>
+          <ul>
+            <li><a href="">شرایط استفاده</a></li>
+            <li><a href="">حریم خصوصی</a></li>
+            <li><a href="">پشتیبانی</a></li>
+          </ul>
+          <ul>
+            <li><a href="">بلاگ بازار</a></li>
+            <li><a href="">خبرها و بیانیه‌های بازار</a></li>
+            <li><a href="">بلاگ فنی بازار</a></li>
+          </ul>
+          <ul>
+            <li><a href="">تبلیغات در بازار</a></li>
+            <li><a href="">درباره ما</a></li>
+            <li><a href="">تماس با ما</a></li>
+          </ul>
+          <section class="footer-menu-logo">
+            <img src="images/Enamad.png" />
+            <img src="images/Samandehi.webp" />
+          </section>
+        </section>
+        <section class="end"></section>
+        <section class="footer-end">
+          <p>
+            تمامی حقوق این سایت متعلق به شرکت آوای همراه هوشمند هزاردستان
+            (فروشگاه برنامه‌های موبایلی اندروید بازار) است.
+          </p>
+          <ul class="footer-social">
+            <li>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-hidden">
+          <div class="footer-hidden-item">
+            <a href="#"><i class="fa fa-gamepad"></i></a>
+            <span>بازی</span>
+          </div>
+          <div class="footer-hidden-item">
+            <a href="#" class="t1"><i class="fa fa-dice-four"></i></a>
+            <span>برنامه</span>
+          </div>
+          <div class="footer-hidden-item">
+            <a href="#"><i class="fa fa-download"></i></a>
+            <span>نصب بازار</span>
+          </div>
+        </section>
+      </section>
+    </footer>
+   
+  </body>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/javascript.js"></script>
+</html>
